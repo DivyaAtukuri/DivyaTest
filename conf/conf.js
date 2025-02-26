@@ -31,13 +31,14 @@ exports.config = {
   onPrepare: function(){
     browser.ignoreSynchronization=true;
     browser.driver.manage().window().maximize();
+    //jasmine reporter
     // jasmine.getEnv().addReporter(new jasminereporter({
     //     savePath:'.testsreports',
     //     screenshotsFolder:'images',
     //     fileNamePrefix:'SamplePractice',
     //     fileNameDateSuffix:true
 
-    // }))
+    // // }))
     //Protractor beatiful report
     //   jasmine.getEnv().addReporter(new HtmlReporter({
     //     baseDirectory:'tmp/screenshots'
