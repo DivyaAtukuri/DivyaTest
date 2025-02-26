@@ -1,0 +1,100 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740479274999' stop='1740479294467'>
+    <name>Automating Customer Login functionality</name>
+    <title>Automating Customer Login functionality</title>
+    <test-cases>
+        <test-case start='1740479275000' status='passed' stop='1740479282477'>
+            <name>Login to the Account</name>
+            <title>Login to the Account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0a2f6d15-bd3c-4fd9-bdb1-e98a25fbd436-attachment.png' type='image/png' size='22453'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740479282477' status='passed' stop='1740479286860'>
+            <name>Verification of Logged in user name and acc no</name>
+            <title>Verification of Logged in user name and acc no</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ef8d1e3e-e326-4b1d-a1ed-3ae29dd5dca6-attachment.png' type='image/png' size='38856'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740479286860' status='passed' stop='1740479289377'>
+            <name>Validate Deposits</name>
+            <title>Validate Deposits</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0d824c81-5529-44c3-b6b1-8a43d80e731c-attachment.png' type='image/png' size='48947'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740479289377' status='passed' stop='1740479292174'>
+            <name>Validate Withdrawl</name>
+            <title>Validate Withdrawl</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fe22ebf5-a190-48fe-a27c-b14bdd8cc425-attachment.png' type='image/png' size='48390'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740479292174' status='failed' stop='1740479294466'>
+            <name>Validate Transactions</name>
+            <title>Validate Transactions</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d01564c3-d804-4efe-bb74-c6492469ba4b-attachment.png' type='image/png' size='41290'/>
+            </attachments>
+            <failure>
+                <message>Failed: No element found using locator: by.repeater("tx in transactions").row("0").column("Amount")</message>
+                <stack-trace>NoSuchElementError: No element found using locator: by.repeater("tx in transactions").row("0").column("Amount")
+                    at C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27
+                    at ManagedPromise.invokeCallback_ (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+                    at TaskQueue.execute_ (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                    at TaskQueue.executeNext_ (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+                    at C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27
+                    at C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+                    at processTicksAndRejections (node:internal/process/task_queues:105:5)Error
+                    at ElementArrayFinder.applyAction_ (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+                    at ElementArrayFinder.&lt;computed> [as getText] (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+                    at ElementFinder.&lt;computed> [as getText] (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+                    at CustomerTransactions.validateTransTable (C:\Users\datukuri\Downloads\ProtractorTesting\ProtractorTesting\Pages\CustomerTransactions.js:36:16)
+                    at UserContext.&lt;anonymous> (C:\Users\datukuri\Downloads\ProtractorTesting\ProtractorTesting\testcases\Customerfunctionalities.js:51:29)
+                    at C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+                    at new ManagedPromise (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+                    at ControlFlow.promise (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+                    at schedulerExecute (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+                    at TaskQueue.execute_ (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+                From: Task: Run it("Validate Transactions") in control flow
+                    at UserContext.&lt;anonymous> (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+                    at attempt (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at QueueRunner.execute (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+                    at Spec.queueRunnerFactory (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+                    at Spec.execute (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+                    at UserContext.fn (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+                    at attempt (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+                    at QueueRunner.run (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+                    at runNext (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (C:\Users\datukuri\Downloads\ProtractorTesting\ProtractorTesting\testcases\Customerfunctionalities.js:48:5)
+                    at addSpecsToSuite (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+                    at Env.describe (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+                    at describe (C:\Users\datukuri\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (C:\Users\datukuri\Downloads\ProtractorTesting\ProtractorTesting\testcases\Customerfunctionalities.js:13:1)
+                    at Module._compile (node:internal/modules/cjs/loader:1739:14)
+                    at Object..js (node:internal/modules/cjs/loader:1904:10)
+                    at Module.load (node:internal/modules/cjs/loader:1473:32)
+                    at Function._load (node:internal/modules/cjs/loader:1285:12)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

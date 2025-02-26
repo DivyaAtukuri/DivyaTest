@@ -1,0 +1,5 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","9291","Login to the Bank Manager Account","","Fri Feb 21 15:58:03 IST 2025","passed","Fri Feb 21 15:58:12 IST 2025","","Automating BankManager Login functionality","Automating BankManager Login functionality","Login to the Bank Manager Account"
+"","7218","Validate Add Customer","","Fri Feb 21 15:58:12 IST 2025","passed","Fri Feb 21 15:58:20 IST 2025","","Automating BankManager Login functionality","Automating BankManager Login functionality","Validate Add Customer"
+"","6581","Validate Open Account","","Fri Feb 21 15:58:20 IST 2025","passed","Fri Feb 21 15:58:26 IST 2025","","Automating BankManager Login functionality","Automating BankManager Login functionality","Validate Open Account"
+"","4647","Validate Customer Existance","","Fri Feb 21 15:58:26 IST 2025","passed","Fri Feb 21 15:58:31 IST 2025","","Automating BankManager Login functionality","Automating BankManager Login functionality","Validate Customer Existance"

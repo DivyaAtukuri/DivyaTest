@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1740124625185' stop='1740124649220'>
+    <name>Automating BankManager Login functionality</name>
+    <title>Automating BankManager Login functionality</title>
+    <test-cases>
+        <test-case start='1740124625185' status='passed' stop='1740124631305'>
+            <name>Login to the Bank Manager Account</name>
+            <title>Login to the Bank Manager Account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3c0a2eae-0fae-4e08-943a-f4445fe585d3-attachment.png' type='image/png' size='27231'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740124631305' status='passed' stop='1740124638138'>
+            <name>Validate Add Customer</name>
+            <title>Validate Add Customer</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='04c81038-e4ec-487b-a1e9-d9543f30e600-attachment.png' type='image/png' size='40091'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740124638138' status='passed' stop='1740124644731'>
+            <name>Validate Open Account</name>
+            <title>Validate Open Account</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1cb8d17d-e154-4e0a-af6b-4ec5cf586056-attachment.png' type='image/png' size='37788'/>
+            </attachments>
+        </test-case>
+        <test-case start='1740124644731' status='passed' stop='1740124649219'>
+            <name>Validate Customer Existance</name>
+            <title>Validate Customer Existance</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2e13a358-65b7-4273-b6d1-b06ea4439f15-attachment.png' type='image/png' size='43851'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

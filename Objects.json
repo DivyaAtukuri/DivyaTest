@@ -1,0 +1,79 @@
+{
+    "url":"http://www.way2automation.com/angularjs-protractor/banking/#/login",
+    "timeOut":2000,
+    "regPage":{
+        "locators":{
+            "firstName":"//*[@id='firstName']",
+            "lastName":"//*[@id='lastName']",
+            "email":"//*[@id='email']",
+            "password":"//*[@id='password']",
+            "Reading":"//*[text()=' Reading']",
+            "Traveling":"//*[text()=' Traveling']",
+            "Sports":"//*[text()=' Sports']",
+            "about":"//*[@name='about']",
+            "RegisterBtn":"//*[text()='Register']",
+            "successMessage":"//*[@id='successMessage']",
+            "errorMessage":"//*[@id='errorMessage']"
+        },
+        "values":{
+            "fname":"Divya",
+            "lname":"Atukuri",
+            "email":"ac@gmail.com",
+            "pwd":"1234D",
+            "errorMessage":"All fields must be filled!",
+            "successMessage":"User registered successfully!",
+            "aboutDesc":"As mentioned earlier, for successful test automation,",
+            "GenderMale":"Male",
+            "GenderFemale":"Female"
+        } 
+    },
+    "Customer":{
+        "locators":{
+            "loginButton":"Login",
+            "userNameTxt":"//strong//span",
+            "transaction":"transactions()",
+            "deposit":"deposit()",
+            "withdrawl":"withdrawl()",
+            "accountNo":"//div[@ng-hide='noAccount']//strong[1]",
+            "amountDepositInput":"//input[@ng-model='amount']",
+            "DepositBtn":".btn.btn-default",
+            "TransTable":"tx in transactions",
+            "Amount":"Amount",
+            "TransType":"Transaction Type"
+
+        },
+        "values":{
+            "userName":"Hermoine Granger",
+            "accNo":"1003",
+            "amountToBeDeposit":500,
+            "amountToBeWithdraw":400
+        }
+    },
+    "BankManager":{
+        "locators":{
+            "fName":"//input[@ng-model='fName']",
+            "lname":"//input[@ng-model='lName']",
+            "postCd":"//input[@ng-model='postCd']",
+            "processBtn":"Process",
+            "searchCustomer":"//input[@ng-model='searchCustomer']",
+            "CustTable":"cust in Customers",
+            "fnameCol":"cust.fName",
+            "lnameCol":"cust.lName",
+            "PostCodeCol":"cust.postCd"
+        },
+        "values":{
+            "fname":"Divya",
+            "lname":"Atukuri",
+            "postcode":"123456",
+            "currencyRupee":"Rupee"
+        }
+    },
+    "LifeTime":{
+        "locators":{
+            "linkdin":"//*[@aria-label='Linkedin']"
+        },
+        "values":{
+            
+        }
+    }
+}

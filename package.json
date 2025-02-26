@@ -1,0 +1,26 @@
+{
+  "name": "protractortesting",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "divya",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.5.2",
+    "jasmine2-protractor-utils": "^1.3.0",
+    "protractor-html-reporter-2": "^1.0.4",
+    "protractor-jasmine2-html-reporter": "^0.0.7",
+    "protractor-take-screenshots-on-demand": "^1.2.0"
+  },
+  "scripts": {
+    "test": "protractor .\\conf\\conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report || true",
+    "allure": ".\\node_modules\\.bin\\allure generate ./allure-results -c && allure open"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.32.2",
+    "protractor-beautiful-reporter": "^1.3.6"
+  }
+}
